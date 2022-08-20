@@ -27,13 +27,16 @@ ul {
 }
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 address {
     font-style: normal;
 }
 button {
 cursor: pointer;
-/* font-family: inherit; */
+border: transparent;
+text-align: center;
 }
 .current {
     color: var(--accent-color);
@@ -70,6 +73,7 @@ body {
 
 .site-nav {
     display: flex;
+    align-items: center;
 }
 .contacts{
     display: flex;
@@ -148,7 +152,6 @@ margin-right: 30px;
         line-height: 1.87;
         display: flex;
         align-items: center;
-        text-align: center;
         letter-spacing: 0.06em;
         color: var(--primary-background-color);
         background-color: var(--accent-color);
@@ -206,6 +209,7 @@ background-color:var(--secondary-background-color);
 }
  .employees {
 flex-basis: calc((100%-90px)/4);
+border-radius: 0px;
  }
 
 .hero-section, 
@@ -226,17 +230,32 @@ margin-bottom: 30px;
 }
 
 .press-btn-menu {
+display: inline-block;
+min-width: 130px;
+padding: 6px 22px;
+border-radius: 4px;
+text-align: center;
+
         font-size: 16px;
         line-height: 1.6;
-        text-align: center;
         font-weight: 500;
-         color: var(--primary-text-color);    
+         color: var(--primary-text-color);
+        background: #F5F4FA;
+}
+
+.menu-btn:not(:last-child){
+margin-right: 8px;
 }
 
 .press-btn-menu:hover,
 .press-btn-menu:focus {
     background-color: var(--accent-color);
     color:var(--primary-background-color)
+}
+.icon {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 .title-items {
@@ -279,6 +298,9 @@ color: var(--secondary-text-color);
 }
 
 .icon-name {
+margin-top:  20px;
+margin-bottom: 4px;
+
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
@@ -317,3 +339,22 @@ color: var(--secondary-text-color);
     display: inline-block;
     margin-bottom: 20px;
 }
+
+.portfolio-container {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    
+}
+
+.btn-menu {
+    display: flex;
+   
+    align-items: center;
+    margin-bottom: 34px;
+    justify-content: center;
+}
+.menu-icon {
+    border: 1px solid #ECECEC;
+    flex-basis: calc((100%-60px)/3);
+    margin-right: 0;
+    }
