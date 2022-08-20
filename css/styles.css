@@ -354,7 +354,6 @@ color: var(--secondary-text-color);
     justify-content: center;
 }
 .menu-icon {
-    border: 1px solid #ECECEC;
-    flex-basis: calc((100%-60px)/3);
+    flex-basis: calc(100%/3-30px);
     margin-right: 0;
     }
