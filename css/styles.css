@@ -163,10 +163,6 @@ margin-right: 30px;
 .modal-open-btn:focus {
     background-color: #188CE8;
 }
-.advantages-conteiner{
-    padding-top: 94px;
-}
-
 
 .visually-hidden {
        position: absolute;
@@ -188,7 +184,7 @@ margin-right: 30px;
 .advantages-item-list {
     flex-basis: calc((100% - 90px)/4);
 }
-.about-section {
+.content-section.about-section {
     padding-top: 0;
 }
 
