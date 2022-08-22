@@ -342,6 +342,7 @@ color: var(--secondary-text-color);
 .footer-logo {
     display: inline-block;
     margin-bottom: 20px;
+    margin-right: 0;
 }
 
 .content-section {
@@ -354,19 +355,20 @@ color: var(--secondary-text-color);
     display: flex;
    
     align-items: center;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
     justify-content: center;
 }
 .menu-icon {
     flex-basis: calc((100% - 60px)/3);
    
     background: var(--primary-background-color);
-    border: 1px solid #EEEEEE;
-
+    
     }
 
     .about-icon {
         padding: 20px 24px;
+        
+        border: 1px solid #EEEEEE;
     }
 
 .footer-contact:not(:last-child) {
